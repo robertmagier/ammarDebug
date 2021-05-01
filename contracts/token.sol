@@ -724,7 +724,7 @@ contract ThirstMoon is Context, IERC20, Ownable {
     address payable public _donationAddress;
 
     IUniswapV2Router02 public immutable uniswapV2Router;
-    address public  immutable uniswapV2Pair;
+    address public   immutable uniswapV2Pair;
     
     bool inSwapAndLiquify;
     bool public swapAndLiquifyEnabled = true;
